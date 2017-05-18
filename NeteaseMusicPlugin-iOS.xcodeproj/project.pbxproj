@@ -7,18 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48172BBF1ECD8ECA00CD47BD /* NeteaseMusicHook.h in Sources */ = {isa = PBXBuildFile; fileRef = 48E9B6191EC4C80400D83905 /* NeteaseMusicHook.h */; };
+		4868ED691EC5723900C197EA /* JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4868ED551EC5723900C197EA /* JSONModel.h */; };
+		4868ED6A1EC5723900C197EA /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4868ED561EC5723900C197EA /* JSONModel.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		4868ED6B1EC5723900C197EA /* JSONModelClassProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 4868ED571EC5723900C197EA /* JSONModelClassProperty.h */; };
+		4868ED6C1EC5723900C197EA /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 4868ED581EC5723900C197EA /* JSONModelClassProperty.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		4868ED6D1EC5723900C197EA /* JSONModelError.h in Headers */ = {isa = PBXBuildFile; fileRef = 4868ED591EC5723900C197EA /* JSONModelError.h */; };
+		4868ED6E1EC5723900C197EA /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 4868ED5A1EC5723900C197EA /* JSONModelError.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		4868ED6F1EC5723900C197EA /* JSONModelLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 4868ED5C1EC5723900C197EA /* JSONModelLib.h */; };
+		4868ED701EC5723900C197EA /* JSONAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 4868ED5E1EC5723900C197EA /* JSONAPI.h */; };
+		4868ED711EC5723900C197EA /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 4868ED5F1EC5723900C197EA /* JSONAPI.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		4868ED721EC5723900C197EA /* JSONHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 4868ED601EC5723900C197EA /* JSONHTTPClient.h */; };
+		4868ED731EC5723900C197EA /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4868ED611EC5723900C197EA /* JSONHTTPClient.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		4868ED741EC5723900C197EA /* JSONModel+networking.h in Headers */ = {isa = PBXBuildFile; fileRef = 4868ED621EC5723900C197EA /* JSONModel+networking.h */; };
+		4868ED751EC5723900C197EA /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4868ED631EC5723900C197EA /* JSONModel+networking.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		4868ED761EC5723900C197EA /* JSONKeyMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4868ED651EC5723900C197EA /* JSONKeyMapper.h */; };
+		4868ED771EC5723900C197EA /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4868ED661EC5723900C197EA /* JSONKeyMapper.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		4868ED781EC5723900C197EA /* JSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4868ED671EC5723900C197EA /* JSONValueTransformer.h */; };
+		4868ED791EC5723900C197EA /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4868ED681EC5723900C197EA /* JSONValueTransformer.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		4868ED7A1EC5724E00C197EA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4868ED0E1EC53B1700C197EA /* SystemConfiguration.framework */; };
+		48E9B6141EC4C69A00D83905 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E9B6131EC4C69A00D83905 /* Helper.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		48E9B6161EC4C79500D83905 /* Helper.h in Sources */ = {isa = PBXBuildFile; fileRef = 48E9B6151EC4C6A900D83905 /* Helper.h */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		48E9B6181EC4C7F600D83905 /* NeteaseMusicHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E9B6171EC4C7F600D83905 /* NeteaseMusicHook.m */; };
 		48FD7C931EC1590000C68210 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48FD7C921EC1590000C68210 /* Foundation.framework */; };
-		48FD7C9D1EC1590000C68210 /* NeteaseMusicPlugin_iOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = 48FD7C9C1EC1590000C68210 /* NeteaseMusicPlugin_iOS.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4868ED0E1EC53B1700C197EA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4868ED531EC5723900C197EA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4868ED551EC5723900C197EA /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; };
+		4868ED561EC5723900C197EA /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModel.m; sourceTree = "<group>"; };
+		4868ED571EC5723900C197EA /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelClassProperty.h; sourceTree = "<group>"; };
+		4868ED581EC5723900C197EA /* JSONModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelClassProperty.m; sourceTree = "<group>"; };
+		4868ED591EC5723900C197EA /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelError.h; sourceTree = "<group>"; };
+		4868ED5A1EC5723900C197EA /* JSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelError.m; sourceTree = "<group>"; };
+		4868ED5B1EC5723900C197EA /* JSONModel.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = JSONModel.modulemap; sourceTree = "<group>"; };
+		4868ED5C1EC5723900C197EA /* JSONModelLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelLib.h; sourceTree = "<group>"; };
+		4868ED5E1EC5723900C197EA /* JSONAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAPI.h; sourceTree = "<group>"; };
+		4868ED5F1EC5723900C197EA /* JSONAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONAPI.m; sourceTree = "<group>"; };
+		4868ED601EC5723900C197EA /* JSONHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHTTPClient.h; sourceTree = "<group>"; };
+		4868ED611EC5723900C197EA /* JSONHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONHTTPClient.m; sourceTree = "<group>"; };
+		4868ED621EC5723900C197EA /* JSONModel+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+networking.h"; sourceTree = "<group>"; };
+		4868ED631EC5723900C197EA /* JSONModel+networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONModel+networking.m"; sourceTree = "<group>"; };
+		4868ED651EC5723900C197EA /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKeyMapper.h; sourceTree = "<group>"; };
+		4868ED661EC5723900C197EA /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKeyMapper.m; sourceTree = "<group>"; };
+		4868ED671EC5723900C197EA /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
+		4868ED681EC5723900C197EA /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
+		48E9B6131EC4C69A00D83905 /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		48E9B6151EC4C6A900D83905 /* Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		48E9B6171EC4C7F600D83905 /* NeteaseMusicHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeteaseMusicHook.m; sourceTree = "<group>"; };
+		48E9B6191EC4C80400D83905 /* NeteaseMusicHook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NeteaseMusicHook.h; sourceTree = "<group>"; };
 		48FD7C8F1EC1590000C68210 /* NeteaseMusicPlugin-iOS.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "NeteaseMusicPlugin-iOS.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48FD7C921EC1590000C68210 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		48FD7C971EC1590000C68210 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
 		48FD7C981EC1590000C68210 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
 		48FD7C9A1EC1590000C68210 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
 		48FD7C9B1EC1590000C68210 /* NeteaseMusicPlugin-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NeteaseMusicPlugin-iOS-Prefix.pch"; sourceTree = "<group>"; };
-		48FD7C9C1EC1590000C68210 /* NeteaseMusicPlugin_iOS.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NeteaseMusicPlugin_iOS.mm; sourceTree = "<group>"; };
 		48FD7CA11EC1590000C68210 /* NeteaseMusicPlugin_iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = NeteaseMusicPlugin_iOS.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/NeteaseMusicPlugin_iOS.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -27,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4868ED7A1EC5724E00C197EA /* SystemConfiguration.framework in Frameworks */,
 				48FD7C931EC1590000C68210 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -34,6 +79,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4868ED521EC5723900C197EA /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				4868ED531EC5723900C197EA /* Info.plist */,
+				4868ED541EC5723900C197EA /* JSONModel */,
+				4868ED5B1EC5723900C197EA /* JSONModel.modulemap */,
+				4868ED5C1EC5723900C197EA /* JSONModelLib.h */,
+				4868ED5D1EC5723900C197EA /* JSONModelNetworking */,
+				4868ED641EC5723900C197EA /* JSONModelTransformations */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		4868ED541EC5723900C197EA /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				4868ED551EC5723900C197EA /* JSONModel.h */,
+				4868ED561EC5723900C197EA /* JSONModel.m */,
+				4868ED571EC5723900C197EA /* JSONModelClassProperty.h */,
+				4868ED581EC5723900C197EA /* JSONModelClassProperty.m */,
+				4868ED591EC5723900C197EA /* JSONModelError.h */,
+				4868ED5A1EC5723900C197EA /* JSONModelError.m */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		4868ED5D1EC5723900C197EA /* JSONModelNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				4868ED5E1EC5723900C197EA /* JSONAPI.h */,
+				4868ED5F1EC5723900C197EA /* JSONAPI.m */,
+				4868ED601EC5723900C197EA /* JSONHTTPClient.h */,
+				4868ED611EC5723900C197EA /* JSONHTTPClient.m */,
+				4868ED621EC5723900C197EA /* JSONModel+networking.h */,
+				4868ED631EC5723900C197EA /* JSONModel+networking.m */,
+			);
+			path = JSONModelNetworking;
+			sourceTree = "<group>";
+		};
+		4868ED641EC5723900C197EA /* JSONModelTransformations */ = {
+			isa = PBXGroup;
+			children = (
+				4868ED651EC5723900C197EA /* JSONKeyMapper.h */,
+				4868ED661EC5723900C197EA /* JSONKeyMapper.m */,
+				4868ED671EC5723900C197EA /* JSONValueTransformer.h */,
+				4868ED681EC5723900C197EA /* JSONValueTransformer.m */,
+			);
+			path = JSONModelTransformations;
+			sourceTree = "<group>";
+		};
 		48FD7C851EC158FF00C68210 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +149,7 @@
 		48FD7C911EC1590000C68210 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4868ED0E1EC53B1700C197EA /* SystemConfiguration.framework */,
 				48FD7C921EC1590000C68210 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -62,9 +158,13 @@
 		48FD7C941EC1590000C68210 /* NeteaseMusicPlugin-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				48FD7C9C1EC1590000C68210 /* NeteaseMusicPlugin_iOS.mm */,
+				4868ED521EC5723900C197EA /* JSONModel */,
 				48FD7C951EC1590000C68210 /* Package */,
 				48FD7C991EC1590000C68210 /* Supporting Files */,
+				48E9B6131EC4C69A00D83905 /* Helper.m */,
+				48E9B6151EC4C6A900D83905 /* Helper.h */,
+				48E9B6171EC4C7F600D83905 /* NeteaseMusicHook.m */,
+				48E9B6191EC4C80400D83905 /* NeteaseMusicHook.h */,
 			);
 			path = "NeteaseMusicPlugin-iOS";
 			sourceTree = "<group>";
@@ -127,6 +227,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4868ED6B1EC5723900C197EA /* JSONModelClassProperty.h in Headers */,
+				4868ED691EC5723900C197EA /* JSONModel.h in Headers */,
+				4868ED6F1EC5723900C197EA /* JSONModelLib.h in Headers */,
+				4868ED701EC5723900C197EA /* JSONAPI.h in Headers */,
+				4868ED741EC5723900C197EA /* JSONModel+networking.h in Headers */,
+				4868ED761EC5723900C197EA /* JSONKeyMapper.h in Headers */,
+				4868ED6D1EC5723900C197EA /* JSONModelError.h in Headers */,
+				4868ED781EC5723900C197EA /* JSONValueTransformer.h in Headers */,
+				4868ED721EC5723900C197EA /* JSONHTTPClient.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +249,7 @@
 				48FD7C8A1EC1590000C68210 /* Sources */,
 				48FD7C8B1EC1590000C68210 /* Frameworks */,
 				48FD7C8C1EC1590000C68210 /* Headers */,
-				48FD7C8D1EC1590000C68210 /* ShellScript */,
+				48FD7C8D1EC1590000C68210 /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -184,18 +293,19 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		48FD7C8D1EC1590000C68210 /* ShellScript */ = {
+		48FD7C8D1EC1590000C68210 /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = "Run Script";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp\n\nscp -P 2223 ./LatestBuild/NeteaseMusicPlugin-iOS.dylib root@127.0.0.1:/var/containers/Bundle/Application/BBBA4753-96DA-4BC4-8922-0531831C7C55/neteasemusic.app/\nssh -p 2223 root@127.0.0.1 'killall neteasemusic || true; open com.netease.cloudmusic'\n#scp -P 2223 ./LatestBuild/NeteaseMusicPlugin-iOS.dylib root@127.0.0.1:/var/containers/Bundle/Application/12C9034B-E0E4-4BDA-A45C-70F87E89C96E/NeteaseMusicIpad.app/\n#ssh -p 2223 root@127.0.0.1 'killall NeteaseMusicIpad || true; open com.netease.CloudMusicIpad'";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -204,7 +314,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48FD7C9D1EC1590000C68210 /* NeteaseMusicPlugin_iOS.mm in Sources */,
+				48172BBF1ECD8ECA00CD47BD /* NeteaseMusicHook.h in Sources */,
+				4868ED731EC5723900C197EA /* JSONHTTPClient.m in Sources */,
+				4868ED711EC5723900C197EA /* JSONAPI.m in Sources */,
+				48E9B6181EC4C7F600D83905 /* NeteaseMusicHook.m in Sources */,
+				4868ED6E1EC5723900C197EA /* JSONModelError.m in Sources */,
+				4868ED771EC5723900C197EA /* JSONKeyMapper.m in Sources */,
+				48E9B6161EC4C79500D83905 /* Helper.h in Sources */,
+				48E9B6141EC4C69A00D83905 /* Helper.m in Sources */,
+				4868ED751EC5723900C197EA /* JSONModel+networking.m in Sources */,
+				4868ED6A1EC5723900C197EA /* JSONModel.m in Sources */,
+				4868ED6C1EC5723900C197EA /* JSONModelClassProperty.m in Sources */,
+				4868ED791EC5723900C197EA /* JSONValueTransformer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,13 +388,23 @@
 		48FD7CA51EC1590000C68210 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_IDENTITY = "";
 				DEVELOPMENT_TEAM = 9975VG746Y;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NeteaseMusicPlugin-iOS/NeteaseMusicPlugin-iOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				iOSOpenDevBuildPackageOnAnyBuild = NO;
 				iOSOpenDevCopyOnBuild = NO;
@@ -288,13 +419,23 @@
 		48FD7CA61EC1590000C68210 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_IDENTITY = "";
 				DEVELOPMENT_TEAM = 9975VG746Y;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NeteaseMusicPlugin-iOS/NeteaseMusicPlugin-iOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				iOSOpenDevBuildPackageOnAnyBuild = NO;
 				iOSOpenDevCopyOnBuild = NO;
@@ -325,6 +466,7 @@
 				48FD7CA61EC1590000C68210 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
