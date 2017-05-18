@@ -4,6 +4,7 @@ A plugin for Netease Music iOS client which forward dead music request to [Unblo
 # What you need
 1. Xcode
 2. The latest version [UnblockNeteaseMusic](https://github.com/ITJesse/UnblockNeteaseMusic)
+3. An Apple Developer Account or a jailbroken iDevice
 
 # How to use
 
@@ -14,7 +15,7 @@ A plugin for Netease Music iOS client which forward dead music request to [Unblo
 3. Change the apiServer `http://127.0.0.1:8123` to your own UnblockNeteaseMusic address.
 4. Then you have two choices.
 
-### Jailberak
+### Jailbroken
 1. Modify the `Run Script` in the `Build Phases` to fit your device. Which copy the dylib file to the app's folder and inject it to the binary file.
 2. Build and run.
 3. Have fun!
@@ -23,7 +24,7 @@ A plugin for Netease Music iOS client which forward dead music request to [Unblo
 1. Delete the `Run Script` in the `Build Phases`.
 2. Build.
 3. Unpack the ipa and inject the NeteaseMusicPlugin-iOs.dylib into the binary file.
-4. Pack an resign the ipa using your developer account. (Do not change the bundle id.)
+4. Repack and resign the ipa using your developer account. (Do not change the bundle id.)
 5. Install to your device.
 6. Have fun!
 
